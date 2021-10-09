@@ -1,0 +1,190 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 2000px;
+  height: 100%;
+  background-image: url("../image/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 0 42.5rem;
+}
+
+.text-heading {
+  font-size: 215px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 48rem;
+  cursor: default;
+  user-select: none;
+}
+
+.btn {
+  border: none;
+  background-color: #25365d;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn-downloads {
+  padding: 19px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  margin: 0 auto;
+  gap: 0 10px;
+}
+.btn-primary {
+  margin-top: 70px;
+  padding: 19px 60px;
+  border-radius: 32px;
+  gap: 0 10px;
+}
+
+.header {
+  padding-top: 2.5rem;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 0 25px;
+}
+.header-link {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+.header-search {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+}
+.header-bottom {
+  margin-top: 19rem;
+  text-align: center;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 6rem;
+}
+.header-heading {
+  font-size: 9.1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  letter-spacing: 5px;
+  cursor: default;
+  user-select: none;
+}
+.header-desc {
+  color: #bbd8ff;
+  font-size: 2.4rem;
+  width: 81rem;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.download {
+  margin-top: 45rem;
+}
+.download-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: relative;
+}
+.download-heading {
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  color: #25365d;
+  font-size: 7.2rem;
+}
+.download-desc {
+  margin-top: 6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #5a5a5a;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+}
+.download-check {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  margin-bottom: 10px;
+  cursor: default;
+  user-select: none;
+}
+.download-check span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #93aac9;
+}
+.download-img {
+  position: absolute;
+  top: 0;
+  right: -25%;
+}
+
+/*# sourceMappingURL=app.css.map */

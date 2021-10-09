@@ -1,0 +1,54 @@
+.header {
+  padding-top: 2.5rem;
+  &-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 0 25px;
+  }
+  &-link {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+  }
+  &-search {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+  }
+  &-bottom {
+    margin-top: 19rem;
+    text-align: center;
+  }
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+  &-heading {
+    font-size: 9.1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: $secondFont;
+    color: white;
+    letter-spacing: 5px;
+    cursor: default;
+    user-select: none;
+  }
+  &-desc {
+    color: #bbd8ff;
+    font-size: 2.4rem;
+    width: 81rem;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+}
