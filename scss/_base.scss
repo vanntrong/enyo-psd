@@ -14,16 +14,17 @@ body {
   background-repeat: no-repeat;
 }
 .container {
-  padding: 0 42.5rem;
+  padding: 0 43rem;
 }
 .text-heading {
   font-size: 215px;
   text-align: center;
   color: white;
   position: relative;
-  top: 48rem;
+  top: 72rem;
   cursor: default;
   user-select: none;
+  opacity: 0.8;
 }
 .btn {
   border: none;
@@ -45,5 +46,17 @@ body {
     padding: 19px 60px;
     border-radius: 32px;
     gap: 0 10px;
+  }
+}
+.heading {
+  font-family: $secondFont;
+  text-transform: uppercase;
+  color: $darkColor;
+  font-size: 7.2rem;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 1920px) {
+  html {
+    font-size: 50%;
   }
 }

@@ -55,7 +55,7 @@ body {
 }
 
 .container {
-  padding: 0 42.5rem;
+  padding: 0 43rem;
 }
 
 .text-heading {
@@ -63,9 +63,10 @@ body {
   text-align: center;
   color: white;
   position: relative;
-  top: 48rem;
+  top: 72rem;
   cursor: default;
   user-select: none;
+  opacity: 0.8;
 }
 
 .btn {
@@ -91,6 +92,19 @@ body {
   gap: 0 10px;
 }
 
+.heading {
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  color: #25365d;
+  font-size: 7.2rem;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1920px) {
+  html {
+    font-size: 50%;
+  }
+}
 .header {
   padding-top: 2.5rem;
 }
@@ -147,18 +161,13 @@ body {
 }
 
 .download {
-  margin-top: 45rem;
+  margin-top: 65rem;
+  padding-bottom: 14.5rem;
 }
 .download-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   position: relative;
-}
-.download-heading {
-  font-family: "Bebas Neue", cursive;
-  text-transform: uppercase;
-  color: #25365d;
-  font-size: 7.2rem;
 }
 .download-desc {
   margin-top: 6rem;
@@ -185,6 +194,167 @@ body {
   position: absolute;
   top: 0;
   right: -25%;
+}
+
+.banner {
+  padding: 14rem 0 13rem;
+  background-color: #f7f9fb;
+}
+.banner-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem 8rem;
+  list-style: none;
+}
+.banner-item {
+  display: flex;
+  flex-direction: row;
+  gap: 0 3.5rem;
+}
+.banner-item-img {
+  width: 60px;
+}
+.banner-item-content {
+  flex: 1;
+  width: 25rem;
+}
+.banner-item-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #25365d;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+.banner-item-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5a5a5a;
+}
+
+.feature {
+  padding: 15rem 0 10rem;
+}
+.feature-heading {
+  text-align: center;
+  margin-bottom: 8.5rem;
+}
+
+.plans {
+  background-color: #f7f9fb;
+  padding: 16rem 0 12rem;
+}
+.plans-heading {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.plans-desc {
+  font-size: 16px;
+  font-weight: 300;
+  color: #5a5a5a;
+  text-align: center;
+  margin-bottom: 7.5rem;
+}
+.plans-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 3rem;
+}
+.plans-item {
+  text-align: center;
+  padding: 4rem 6rem;
+  width: 40rem;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.plans-item-heading {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}
+.plans-item-current {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #25365d;
+}
+.plans-item-price {
+  font-size: 7.2rem;
+  font-weight: bold;
+  color: #25365d;
+}
+.plans-item-duration {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #5a5a5a;
+}
+.plans-item-desc {
+  margin-top: 6rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #5a5a5a;
+}
+.plans-support {
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.plans-support-men {
+  margin-bottom: 3.5rem;
+}
+.plans-support-heading {
+  font-size: 2.2rem;
+  color: #25365d;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 3.5rem;
+  cursor: default;
+}
+.plans-support-desc {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #5a5a5a;
+  margin-bottom: 7.5rem;
+  max-width: 53rem;
+  text-align: center;
+}
+.plans-support-contact {
+  display: flex;
+  align-items: center;
+  gap: 0 7rem;
+}
+.plans-support-contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+  cursor: pointer;
+}
+.plans-support-contact-link span {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #25365d;
+}
+
+.footer {
+  padding: 15rem 0 66.6rem;
+  background: url("../image/background.png");
+  background-position: bottom;
+}
+.footer-heading {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.footer-desc {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #5a5a5a;
+  cursor: default;
+  text-align: center;
+  max-width: 114rem;
+  margin: 0 auto 7.5rem;
 }
 
 /*# sourceMappingURL=app.css.map */
